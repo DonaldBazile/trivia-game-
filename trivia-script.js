@@ -46,7 +46,7 @@ const questions = {
 
 const question = document.getElementById('question')
 
-let playerScore = 0
+let playerScore = (1*100)/10
 let questionIndex = 0
 let didReachLastQuestion = false
 question.innerText = questions.questions[questionIndex].question
@@ -73,7 +73,7 @@ function nextQuestion() {
     questionIndex += 1
     if (questionIndex >= questions.questions.length) {
         didReachLastQuestion = true
-        const yourFinalScore = `Your score is ${playerScore} / ${questions.questions.length}.`
+        const yourFinalScore = `Your score is ${playerScore}%`
         question.innerText = yourFinalScore
         shouldHideAnswerButtons(true)
     } else {
