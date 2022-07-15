@@ -85,7 +85,8 @@ function nextQuestion() {
 function replay() {
     shouldHideAnswerButtons(false)
     playerScore = 0
-    questionIndex = 0
+    playerScorePercent = 0
+    questionIndex = Math.floor(Math.random() * questions.questions.length)
     didReachLastQuestion = false
     question.innerText = questions.questions[questionIndex].question
 }
