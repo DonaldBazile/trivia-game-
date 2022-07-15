@@ -17,7 +17,7 @@ const questions = {
             "answer": false
         },
         {
-            "question": "Albert Einstein is Magician.",
+            "question": "Albert Einstein is a magician.",
             "answer": false
         },
         {
@@ -33,7 +33,7 @@ const questions = {
             "answer": true
         },
         {
-            "question": "Lebron James won 1 championship in collage.",
+            "question": "Lebron James won 1 championship in college.",
             "answer": false
         },
         {
